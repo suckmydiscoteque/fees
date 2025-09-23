@@ -6,3 +6,4 @@ In addition, the repo currently has one deep-dive into epoch 842 into all valida
 
 Please contact nihar@doublezero.us with questions.
 [![CI](https://github.com/<owner>/<repo>/actions/workflows/<workflow>.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/<workflow>.yml)
+[![CI](https://github.com/<owner>/<repo>/actions/workflows/<workflow>.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/<workflow>.yml)
