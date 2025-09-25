@@ -7,3 +7,22 @@ In addition, the repo currently has one deep-dive into epoch 842 into all valida
 Please contact nihar@doublezero.us with questions.
 [![CI](https://github.com/<owner>/<repo>/actions/workflows/<workflow>.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/<workflow>.yml)
 [![CI](https://github.com/<owner>/<repo>/actions/workflows/<workflow>.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/<workflow>.yml)
+## Data schema
+
+This repository provides two CSV files:
+
+- `block_rewards_data.csv` – contains historical block rewards by validator pubkey and epoch.
+- `earnings_epochXYZ.csv` – lists validator earnings and calculated DoubleZero fees for a given epoch.
+
+Each file includes a `pubkey` column, along with reward amounts and the computed DoubleZero fee (5% of block rewards).
+
+---
+
+## Examples
+
+See [EXAMPLE_USAGE.md](./EXAMPLE_USAGE.md) for a step-by-step guide on how to:
+
+- Find your validator pubkey
+- Check block rewards
+- Apply the 5% fee formula
+- Cross-check the calculated fee with the CSV files
